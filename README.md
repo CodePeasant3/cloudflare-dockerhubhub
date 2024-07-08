@@ -1,5 +1,7 @@
 # 背景
 
+<a href="https://atomhub.openatom.cn"><img src="./img/5.png" alt="可信镜像中心"></a>
+
 
 # 部署
 
