@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "deploy": "wrangler deploy src/worker.js",
+    "dev": "wrangler dev src/worker.js",
+    "start": "wrangler dev src/worker.js"
   },
   "devDependencies": {
     "wrangler": "^3.60.3"

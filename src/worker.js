@@ -2,7 +2,7 @@
 
 export default {
 	async fetch(request) {
-	  
+
 	  const ORIGINS = {
 		"d": "registry.hub.docker.com",
 		"ddd": "registry.hub.docker.com",
@@ -16,7 +16,8 @@ export default {
 		"g": "gcr.io",
 		"ggg": "gcr.io",
 		"gcr": "gcr.io",
-	  };	  
+		"test": "test.io"
+	  };
 
 	  const url = new URL(request.url);
 	  const url_key = url.hostname.split('.')[0]
@@ -25,7 +26,7 @@ export default {
 		url.host = ORIGINS[url_key];
 		return fetch(url, { headers: request.headers, method: request.method, body: request.body });
 	  }
-	  
+
 	  return fetch(request);
 
 	},
