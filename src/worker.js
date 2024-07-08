@@ -16,7 +16,6 @@ export default {
 		"g": "gcr.io",
 		"ggg": "gcr.io",
 		"gcr": "gcr.io",
-		"test": "test.io"
 	  };
 
 	  const url = new URL(request.url);
