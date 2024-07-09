@@ -87,3 +87,20 @@ sudo docker pull registry.k8s.io/kube-apiserver:v1.28.11
 # 现在, 通过代理地址拉取，成功
 sudo docker pull k8s.你的域名/kube-apiserver:v1.28.11
 ```
+
+# 总结
+| 域名  | 目标 | 用途 |
+| ---- | ---- | ---- |
+| d.yourdomain | registry.hub.docker.com | dockerhub仓库代理 |
+| ddd.yourdomain | registry.hub.docker.com | dockerhub仓库代理 |
+| dockerhub.yourdomain | registry.hub.docker.com | dockerhub仓库代理 |
+| k.yourdomain | registry.k8s.io | k8s仓库代理 |
+| kkk.yourdomain | registry.k8s.io | k8s仓库代理 |
+| k8s.yourdomain | registry.k8s.io | k8s仓库代理 |
+| q.yourdomain | quay.io | quay仓库代理 |
+| qqq.yourdomain | quay.io | quay仓库代理 |
+| quay.yourdomain | quay.io | quay仓库代理 |
+| g.yourdomain | gcr.io | gcr仓库代理 |
+| ggg.yourdomain | gcr.io | gcr仓库代理 |
+| gcr.yourdomain | gcr.io | gcr仓库代理 |
+| mirrors.yourdomain | archive.ubuntu.com | ubuntu官方软件源代理 |
