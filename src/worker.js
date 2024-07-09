@@ -7,15 +7,20 @@ export default {
 		"d": "registry.hub.docker.com",
 		"ddd": "registry.hub.docker.com",
 		"dockerhub": "registry.hub.docker.com",
+
 		"k": "registry.k8s.io",
 		"kkk": "registry.k8s.io",
 		"k8s": "registry.k8s.io",
+
 		"q": "quay.io",
 		"qqq": "quay.io",
 		"quay": "quay.io",
+
 		"g": "gcr.io",
 		"ggg": "gcr.io",
 		"gcr": "gcr.io",
+
+		"mirrors": "archive.ubuntu.com"
 	  };
 
 	  const url = new URL(request.url);
