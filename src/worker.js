@@ -20,7 +20,9 @@ export default {
 		"ggg": "gcr.io",
 		"gcr": "gcr.io",
 
-		"mirrors": "archive.ubuntu.com"
+		"mirrors": "archive.ubuntu.com",
+
+		"github": "github.com"
 	  };
 
 	  const url = new URL(request.url);
