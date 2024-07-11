@@ -22,7 +22,9 @@ export default {
 
 		"mirrors": "archive.ubuntu.com",
 
-		"github": "github.com"
+		"github": "github.com",
+
+		"kitware": "apt.kitware.com"
 	  };
 
 	  const url = new URL(request.url);
