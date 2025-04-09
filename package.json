@@ -8,6 +8,6 @@
     "start": "wrangler dev src/worker.js"
   },
   "devDependencies": {
-    "wrangler": "^3.60.3"
+    "wrangler": "4.9.1"
   }
 }
