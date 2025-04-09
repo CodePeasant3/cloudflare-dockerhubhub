@@ -7,6 +7,8 @@ export default {
 		"d": "registry.hub.docker.com",
 		"ddd": "registry.hub.docker.com",
 		"dockerhub": "registry.hub.docker.com",
+		  
+		"nvcr": "nvcr.io",
 
 		"k": "registry.k8s.io",
 		"kkk": "registry.k8s.io",
